@@ -64,6 +64,9 @@ const Container = styled.div`
   left:0;
   right:0;
   z-index: 1;
+  @media(max-width:768px) {
+    padding: 0 15px;
+  }
 `
 
 const Menu = styled.div`
